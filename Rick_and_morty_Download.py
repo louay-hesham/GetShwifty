@@ -16,9 +16,9 @@ while True:
    soup = BeautifulSoup(html, 'html.parser')
    links=[i['href'] for i in soup.find_all('a') if 'S03E02' in i['href']]
    if links==[]:
-       print 'Not Here yet'
+       print ('Not Here yet')
    else:
-       print '''
+       print ('''
  __       __            __                        __                  __                        _______             __              _______             __
 /  |  _  /  |          /  |                      /  |                /  |                      /       \           /  |            /       \           /  |
 $$ | / \ $$ | __    __ $$ |____    ______        $$ |       __    __ $$ |____    ______        $$$$$$$  | __    __ $$ |____        $$$$$$$  | __    __ $$ |____
@@ -30,9 +30,9 @@ $$$/    $$$ |$$    $$/ $$    $$/ $$    $$ |      $$       |$$    $$/ $$    $$/ $
 $$/      $$/  $$$$$$/  $$$$$$$/   $$$$$$$/       $$$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$$/       $$$$$$$/   $$$$$$/  $$$$$$$/        $$$$$$$/   $$$$$$/  $$$$$$$/
                                                                                                                                                           
                                                                               
-'''
+''')
   
        for i in links:
            if 'http' in i:
-               print i
+               print (i)
        break
