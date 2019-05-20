@@ -1,6 +1,11 @@
 # GetShwifty
-A python script which fetched the torrent URLs of several of my favorite TV shows and anime.
 
-For now it's just Rick and Morty S03E02 as I just forked it
+The code opens magnet links into your favourite bittorrent client.
 
-More options will be added soon
+This has been tested using Deluge. Other bittorrent clients may require some modifications in the code.
+
+Only works on Unix for now. Windows uses a different set of commands to start an application.
+
+Support for Windows may or may not come in the future (I hate coding on Windows).
+
+I recommend use eztv.io for all your torrent links, you may try other websites if they have the same general layout.
