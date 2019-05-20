@@ -12,7 +12,7 @@ class TvShow(object):
         self.link = show_properties['link']
         self.season = show_properties['beginning_season']
         self.episode = show_properties['beginning_episode']
-        self.extra_prop = show_properties['extra']
+        self.extra = show_properties['extra']
         self.bittorrent_client = bittorrent_client
 
     def __get_episode_name(self):

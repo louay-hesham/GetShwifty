@@ -22,7 +22,7 @@ shows = {
         "extra": "x265"
     },
     "Rick and Morty": {
-        "link": "https://eztv.io/shows/1017/rick-and-morty/"
+        "link": "https://eztv.io/shows/1017/rick-and-morty/",
         "beginning_season": 4,
         "beginning_episode": 1,
         "extra": ""
