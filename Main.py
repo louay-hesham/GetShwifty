@@ -13,13 +13,14 @@ bittorrent_client='deluge'
 # Only works on Unix for now. Windows uses a different set of commands to start an application.
 # Support for Windows may or may not come in the future (I hate coding on Windows).
 # I recommend use eztv.io for all your torrent links, you may try other websites if they have the same general layout.
+
 shows = {
-    # "The Flash": {
-    #     "link": "https://eztv.io/shows/1058/the-flash-2014/",
-    #     "beginning_season": 5,
-    #     "beginning_episode": 13,
-    #     "extra": "x265"
-    # },
+    "The Flash": {
+        "link": "https://eztv.io/shows/1058/the-flash-2014/",
+        "beginning_season": 5,
+        "beginning_episode": 23,
+        "extra": "x265"
+    },
     "Rick and Morty": {
         "link": "https://eztv.io/shows/1017/rick-and-morty/"
         "beginning_season": 4,
