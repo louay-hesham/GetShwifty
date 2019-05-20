@@ -17,8 +17,8 @@ bittorrent_client='deluge'
 shows = {
     "The Flash": {
         "link": "https://eztv.io/shows/1058/the-flash-2014/",
-        "beginning_season": 5,
-        "beginning_episode": 23,
+        "beginning_season": 6,
+        "beginning_episode": 1,
         "extra": "x265"
     },
     "Rick and Morty": {
@@ -29,10 +29,16 @@ shows = {
     },
     "The Big Bang Theory": {
         "link": "https://eztv.io/shows/23/the-big-bang-theory/",
-        "beginning_season": 12,
-        "beginning_episode": 13,
+        "beginning_season": 13,
+        "beginning_episode": 1,
         "extra": "x265"
     },
+    "Better Call Saul": {
+        "link": "https://eztv.io/search/better-call-saul",
+        "beginning_season": 5,
+        "beginning_episode": 1,
+        "extra": "720p"
+    }
 }
 
 for show_title, show_properties in shows.items():
