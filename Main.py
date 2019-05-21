@@ -34,8 +34,14 @@ shows = {
         "extra": "x265"
     },
     "Better Call Saul": {
-        "link": "https://eztv.io/search/better-call-saul",
+        "link": "https://eztv.io/shows/1191/better-call-saul/",
         "beginning_season": 5,
+        "beginning_episode": 1,
+        "extra": "720p"
+    },
+    "Mr Robot": {
+        "link": "https://eztv.io/shows/1250/mr-robot/",
+        "beginning_season": 4,
         "beginning_episode": 1,
         "extra": "720p"
     }

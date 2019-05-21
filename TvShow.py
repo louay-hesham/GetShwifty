@@ -52,14 +52,16 @@ class TvShow(object):
         filtered_links = []
         while self.__has_season(links):
             while self.__has_episode(links):
-                filtered_links.extend([link for link in links if 'magnet' in link and self.extra in link and self.__get_season_name() in link and self.__get_episode_name() in link])
+                intermediate_filtered_list = [link for link in links if 'magnet' in link and self.extra in link and self.__get_season_name() in link and self.__get_episode_name() in link]
+                if len(intermediate_filtered_list) > 0:
+                    filtered_links.append(intermediate_filtered_list[0])
                 self.episode += 1
             self.episode = 1
             self.season += 1
 
 
         if filtered_links == []:
-            print('Not Here yet')
+            print(self.name + ': Not Here yet')
             return []
         else:
             print('''
