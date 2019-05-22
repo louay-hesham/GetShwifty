@@ -44,6 +44,12 @@ shows = {
         "beginning_season": 4,
         "beginning_episode": 1,
         "extra": "720p"
+    },
+    "Chernobyl": {
+        "link": "https://eztv.io/shows/5500/chernobyl/",
+        "beginning_season": 1,
+        "beginning_episode": 4,
+        "extra": "x265"
     }
 }
 
